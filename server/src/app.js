@@ -8,6 +8,8 @@ app.use(cors({
     origin: 'http://localhost:3000',
 }));
 app.use(express.json());
+
+//Middleware for the planets routes---> planets.router.js
 app.use(planetsRouter);
 
 module.exports = app;
