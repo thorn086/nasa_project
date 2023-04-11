@@ -53,9 +53,12 @@ function loadPlanetaryData() {
     });
 }
 
+function getAllPlanets() {
+    return result;
+}
 
 module.exports ={
     loadPlanetaryData,
-    planets: result,
+    getAllPlanets,
     
 };

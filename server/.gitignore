@@ -1,3 +1,19 @@
 # Ignore all node_module files
 
-node_modules
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+#production
+/build
+
+#misc
+.DS_Store
+.env_local
+.env.development.local 
+.env.test.local 
+.env.production.local 
+.eslintcache
